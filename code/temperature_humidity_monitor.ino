@@ -5,11 +5,11 @@
 #define DHTPIN D2
 #define DHTTYPE DHT11
 
-const char* ssid = "Airtel_yasi_2089";
-const char* password = "Air@84637";
+const char* ssid = "YOUR_SSID";
+const char* password = "YOUR_PASSWORD";
 
-unsigned long channelID = 3355269;
-const char* writeAPIKey = "O68YX0RRP5KXJ23G";
+unsigned long channelID = YOUR_CHANNEL_ID;
+const char* writeAPIKey = "YOUR_API_KEY";
 
 WiFiClient client;
 DHT dht(DHTPIN, DHTTYPE);
