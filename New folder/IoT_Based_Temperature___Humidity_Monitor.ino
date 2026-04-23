@@ -2,7 +2,7 @@
 #include <ThingSpeak.h>
 #include <DHT.h>
 
-#define DHTPIN D2
+#define DHTPIN D4
 #define DHTTYPE DHT11
 
 const char* ssid = "Airtel_yasi_2089";
